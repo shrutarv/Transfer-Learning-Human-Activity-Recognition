@@ -1,7 +1,7 @@
 # Video-based Pose-Estimation Data as Source for Transfer Learning in Human Activity Recognition [[ICPR 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9956405)]
 
 <p align="center">
-  <img src="media/network.png" width = "450" />
+  <img src="media/network.png" width = "650" />
  
   
 </p>
