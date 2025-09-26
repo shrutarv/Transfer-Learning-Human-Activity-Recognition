@@ -1,4 +1,4 @@
-#Video-based Pose-Estimation Data as Source for Transfer Learning in Human Activity Recognition [[ICPR 2022] https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9956405]
+#Video-based Pose-Estimation Data as Source for Transfer Learning in Human Activity Recognition [[ICPR2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9956405)]
 
 Create synthetic IMU data from videos
 
