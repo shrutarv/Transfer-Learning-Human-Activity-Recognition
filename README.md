@@ -24,6 +24,17 @@ improving HAR performance.
   
 </p>
 
+# Method
+We used JHMDB, CAD 60, Penn Action, PAMAP2, NTU RGB-D, Opportunity and LARA datasets. These datasets contain annotated recordings of human poses from different scenarios with a broad range of human activities in
+the wild. These humanpose annotations from videos are considered multi-channel time-series of human movements.
+<ul>
+  <li>  We use the second derivative of a smooth piecewise spline interpolation of degree five on a
+small-time interval from sequences of human joint-poses for simulating on-body devices attached to the poses, a sort of
+synthetic data</li>
+  <li>The processed data is then fed into a temporal convolutional neural network (tCNN) which is used as a feature extractor and classifier. /li>
+  <li>The network is first trained on a source dataset (JHMDB, CAD 60, Penn Action, NTU RGB-D). Subsequently the trained network is fine tuned on a portion on target dataset (PAMAP2, , Opportunity and LARA datasets=.</li>
+</ul>
+
 Create synthetic IMU data from videos
 
 Goal - Use a source dataset with poses, transform them to acceleration (synthetic IMU data). Then test it on target dataset.
