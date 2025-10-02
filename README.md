@@ -19,9 +19,7 @@ evaluation is carried out on three on-body device datasets
 improving HAR performance.
 
 <p align="center">
-  <img src="media/network.png" width = "650" />
- 
-  
+  <img src="media/network.png" width = "650" />  
 </p>
 
 # Method
@@ -36,8 +34,17 @@ synthetic data</li>
 </ul>
 
 # Experiments
+<p align="center">
+  <img src="media/HAR_1.png" width = "650" />  
+</p>
+<p align="center">
+  <img src="media/HAR_2.png" width = "650" />  
+</p>
+<p align="center">
+  <img src="media/HAR_3.png" width = "650" />  
+</p>
 
+<p align="center">
+  <img src="media/HAR_7.png" width = "650" />  
+</p>
 
-Create synthetic IMU data from videos
-
-Goal - Use a source dataset with poses, transform them to acceleration (synthetic IMU data). Then test it on target dataset.
